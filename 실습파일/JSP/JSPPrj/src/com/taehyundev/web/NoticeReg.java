@@ -16,6 +16,8 @@ public class NoticeReg extends HttpServlet{
 		// TODO Auto-generated method stub
 		res.setCharacterEncoding("UTF-8");
 		res.setContentType("text/html; charset=UTF-8");
+		//req.setCharacterEncoding("UTF-8");
+		
 		PrintWriter out = res.getWriter();
 		String title=req.getParameter("title");
 		String contents = req.getParameter("contents");
