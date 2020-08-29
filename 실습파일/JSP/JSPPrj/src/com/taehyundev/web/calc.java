@@ -48,5 +48,6 @@ public class calc extends HttpServlet {
 			session.setAttribute("value", v);
 			session.setAttribute("op", oper);	
 		}
+		res.sendRedirect("calc.html");
 	}
 }
